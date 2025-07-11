@@ -1,4 +1,4 @@
-# Firebase Studio
+# AI Ethics Auditor
 
 This project is a web application built with React, Next.js, and TypeScript, designed to assist with various aspects of business analysis and compliance. It leverages Firebase Studio for potential backend integration (though specific Firebase services used are not explicitly detailed in the provided file list).
 
