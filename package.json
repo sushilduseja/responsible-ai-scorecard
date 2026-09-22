@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack -p 9002",
-    "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
-    "genkit:watch": "genkit start -- tsx --watch src/ai/dev.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -44,7 +42,7 @@
     "firebase": "^11.9.1",
     "genkit": "^1.13.0",
     "lucide-react": "^0.475.0",
-    "next": ">=15.5.18",
+    "next": ">=16.3.5",
     "patch-package": "^8.0.0",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
@@ -59,19 +57,18 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "genkit-cli": "^1.13.0",
     "postcss": ">=8.5.19",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
   "overrides": {
-    "next": ">=15.5.18",
+    "next": ">=16.3.5",
     "undici": ">=7.29.0",
     "postcss": ">=8.5.19",
     "picomatch": ">=4.0.4",
     "lodash": ">=4.18.0",
     "axios": ">=1.16.0",
-    "adm-zip": ">=0.6.0",
+    "adm-zip": ">=0.6.1",
     "@opentelemetry/core": ">=2.9.0",
     "@opentelemetry/resources": ">=2.9.0",
     "@opentelemetry/sdk-trace-base": ">=2.8.0",
@@ -80,6 +77,8 @@
     "@opentelemetry/sdk-logs": ">=0.219.0",
     "@opentelemetry/sdk-metrics": ">=2.8.0",
     "@opentelemetry/propagator-jaeger": ">=2.9.0",
-    "@opentelemetry/auto-instrumentations-node": ">=0.77.0"
+    "@opentelemetry/auto-instrumentations-node": ">=0.77.0",
+    "fast-uri": "3.1.8",
+    "nanoid": "3.3.19"
   }
 }
